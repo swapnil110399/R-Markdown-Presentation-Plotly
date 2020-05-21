@@ -1,0 +1,14 @@
+---
+title: " Markdown Presentation & Plotly"
+author: "swapnil sinha"
+date: "22/05/2020"
+output: ioslides_presentation
+---
+
+## mtcars
+```{r,echo=FALSE,message=FALSE}
+library(plotly)
+plot_ly(mtcars,x=~wt,y=~mpg,mode="markers")
+```
+
+## thanks
